@@ -31,8 +31,8 @@ public class EmailSender {
 	void sendEmail() {
 
         SimpleMailMessage msg = new SimpleMailMessage();
-        msg.setFrom("mendel@telefonicacompraselectronicas.com");
-        msg.setTo("exposito.luis@gmail.com");
+        msg.setFrom("tce_mendel_pre@telefonicacompraselectronicas.com");
+        msg.setTo("tce_pre2@telefonicacompraselectronicas.com");
 
         msg.setSubject("Testing from Spring Boot");
         msg.setText("Hello World \n Spring Boot Email");

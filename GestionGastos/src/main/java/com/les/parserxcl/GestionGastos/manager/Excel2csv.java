@@ -187,7 +187,7 @@ public class Excel2csv {
 	        //we created our file..!!
 	        input_document.close(); //close xls
 	        
-	        //emailsender.sendEmail();
+	        emailsender.sendEmail();
 	        return true;
 		}
 		
